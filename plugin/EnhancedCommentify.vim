@@ -755,7 +755,7 @@ function s:GetFileTypeSettings(ft)
 	let b:ECcommentClose = '"'
     " Singlepart comments:
     elseif fileType =~ '^\(ox\|cpp\|php\|java\|verilog\|acedb\|ch\|clean\|'.
-		\ 'clipper\|cs\|dot\|dylan\|hercules\|idl\|ishd\|javascript\|'.
+		\ 'clipper\|cs\|dot\|dylan\|go\|hercules\|idl\|ishd\|javascript\|'.
 		\ 'kscript\|mel\|named\|openroad\|pccts\|pfmain\|pike\|'.
 		\ 'pilrc\|plm\|pov\|rc\|scilab\|specman\|tads\|tsalt\|uc\|'.
 		\ 'xkb\)$'
