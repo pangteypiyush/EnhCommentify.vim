@@ -774,7 +774,7 @@ function s:GetFileTypeSettings(ft)
     elseif fileType =~ '^\(python\|perl\|[^w]*sh$\|tcl\|jproperties\|make\|'.
 		\ 'robots\|apache\|apachestyle\|awk\|bc\|cfg\|cl\|conf\|'.
 		\ 'crontab\|diff\|ecd\|elmfilt\|eterm\|expect\|exports\|'.
-		\ 'fgl\|fvwm\|gdb\|gnuplot\|gtkrc\|hb\|hog\|ia64\|icon\|'.
+		\ 'fgl\|fvwm\|gitcommit\|gdb\|gnuplot\|gtkrc\|hb\|hog\|ia64\|icon\|'.
 		\ 'inittab\|lftp\|lilo\|lout\|lss\|lynx\|maple\|mush\|'.
 		\ 'muttrc\|nsis\|ora\|pcap\|pine\|po\|procmail\|'.
 		\ 'psf\|ptcap\|r\|radiance\|ratpoison\|readline\remind\|'.
