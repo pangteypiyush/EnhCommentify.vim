@@ -757,7 +757,7 @@ function s:GetFileTypeSettings(ft)
     elseif fileType =~ '^\(ox\|cpp\|php\|java\|verilog\|acedb\|ch\|clean\|'.
                 \ 'clipper\|cs\|dot\|dylan\|go\|hercules\|idl\|ishd\|javascript\|'.
                 \ 'kscript\|mel\|named\|openroad\|pccts\|pfmain\|pike\|'.
-                \ 'pilrc\|plm\|pov\|rc\|scilab\|specman\|tads\|tsalt\|uc\|'.
+                \ 'pilrc\|plm\|pov\|rc\|rust\|scilab\|specman\|tads\|tsalt\|uc\|'.
                 \ 'xkb\)$'
         let b:ECcommentOpen = '//'
         let b:ECcommentClose = ''
