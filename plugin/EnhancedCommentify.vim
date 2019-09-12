@@ -767,7 +767,7 @@ function s:GetFileTypeSettings(ft)
     elseif fileType =~ '^\(lisp\|scheme\|scsh\|amiga\|asm\|asm68k\|bindzone\|'.
                 \ 'def\|dns\|dosini\|dracula\|dsl\|idlang\|iss\|jess\|kix\|'.
                 \ 'masm\|monk\|nasm\|ncf\|omnimark\|pic\|povini\|rebol\|'.
-                \ 'registry\|samba\|skill\|smith\|tags\|tasm\|tf\|winbatch\|'.
+                \ 'registry\|samba\|skill\|smith\|tags\|tasm\|winbatch\|'.
                 \ 'wvdial\|z8a\)$'
         let b:ECcommentOpen = ';'
         let b:ECcommentClose = ''
@@ -779,7 +779,7 @@ function s:GetFileTypeSettings(ft)
                 \ 'muttrc\|nsis\|ora\|pcap\|pine\|po\|procmail\|'.
                 \ 'psf\|ptcap\|r\|radiance\|ratpoison\|readline\remind\|'.
                 \ 'ruby\|screen\|sed\|sm\|snnsnet\|snnspat\|snnsres\|spec\|'.
-                \ 'squid\|terminfo\|tidy\|tli\|tsscl\|vgrindefs\|vrml\|'.
+                \ 'squid\|terminfo\|tf\|tidy\|tli\|tsscl\|vgrindefs\|vrml\|'.
                 \ 'wget\|wml\|xf86conf\|xmath\)$'
         let b:ECcommentOpen = '#'
         let b:ECcommentClose = ''
