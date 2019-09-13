@@ -778,7 +778,7 @@ function s:GetFileTypeSettings(ft)
                 \ 'inittab\|lftp\|lilo\|lout\|lss\|lynx\|maple\|mush\|'.
                 \ 'muttrc\|nsis\|ora\|pcap\|pine\|po\|procmail\|'.
                 \ 'psf\|ptcap\|r\|radiance\|ratpoison\|readline\remind\|'.
-                \ 'ruby\|screen\|sed\|sm\|snnsnet\|snnspat\|snnsres\|spec\|'.
+                \ 'resolv\|ruby\|screen\|sed\|sm\|snnsnet\|snnspat\|snnsres\|spec\|'.
                 \ 'squid\|terminfo\|tf\|tidy\|tli\|tsscl\|vgrindefs\|vrml\|'.
                 \ 'wget\|wml\|xf86conf\|xmath\)$'
         let b:ECcommentOpen = '#'
