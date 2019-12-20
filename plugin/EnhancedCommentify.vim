@@ -1560,13 +1560,6 @@ function s:SetKeybindings(where)
                             \ .' <Plug>DeComment'
             endif
 
-            if bindInInsert
-                execute 'imap '. where .' <silent> <unique> '. s:C
-                            \ .' <Esc><Plug>DeCommentji'
-                execute 'imap '. where .' <silent> <unique> '. s:X
-                            \ .' <Esc><Plug>DeCommenti'
-            endif
-
             if bindInVisual
                 execute 'vmap '. where .' <silent> <unique> '. s:C
                             \ .' <Plug>VisualDeCommentj'
@@ -1580,13 +1573,6 @@ function s:SetKeybindings(where)
                         \ .' <Plug>'. s:Method .'j'
             execute 'nmap '. where .' <silent> <unique> '. s:x
                         \ .' <Plug>'. s:Method
-        endif
-
-        if bindInInsert
-            execute 'imap '. where .' <silent> <unique> '. s:c
-                        \ .' <Esc><Plug>'. s:Method .'ji'
-            execute 'imap '. where .' <silent> <unique> '. s:x
-                        \ .' <Esc><Plug>'. s:Method
         endif
 
         if bindInVisual
